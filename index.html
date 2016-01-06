@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Business Operations</title>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/portal-main.css" />
+    <link rel="stylesheet" type="text/css" href="css/USP.css" />
+    
+   
+</head>
+<body ng-app="HMSApp" class="metro">
+    
+    <div class="mobile-navigation">
+    <!-- For mobile navigation -->
+    </div>
+    <div class="animated-wrapper hardware-accelarate full-content" style="width: 100%"
+        data-state="neutral">
+        <header class="container typography-content" ng-cloak>
+            <div class="nav navbar-default">
+
+                <div class="navbar-header col-xs-12 navbar-row-1">
+                    <div class="col-xs-2 navbar-toggle">
+                        <button type="button" class="btn btn-md btn-default glyphicon glyphicon-align-justify square-corner"></button>
+                    </div>
+                    <div class="col-xs-8 col-md-8">
+                    <!-- Logo  -->
+                        <a class="col-xs-6 col-md-8" href="#/"><h1 class="portalHeader">Business Operations</h1>
+                            <!-- <img ng-src="images/Logo1.png"  alt="Portal" />--></a> 
+                    <!-- User Login -->    
+                      <!--   <div class="col-xs-8 collapse navbar-collapse">
+                            <span class="glyphicon glyphicon-user user-name">
+	                            <span style="font-family:'Verdana Regular', 'Verdana'; font-size: 15px;">Welcome Demo User</span>
+	                            <span style="font-size:8px; vertical-align: top; margin-top: 4px;" class="glyphicon glyphicon-chevron-down"></span>
+	                            <div class="user-menu">
+									<p><a href="#/">About Us</a></p>								
+									<p><a href="#/">Contact Us</a></p>	
+								</div>
+                            </span>
+                        </div> -->
+                    </div>
+                    <!-- GS Logo -->
+                     <div class="navbar-collapse collapse col-md-4 pull-right">
+                        <a class="col-xs-6 col-md-4" href="#/"><img ng-src="images/GSLogo.png" style="max-width: none;" alt="Portal" /></a>
+                    </div>
+                   </div> 
+                   <!-- Navigation -->
+                <div class="navbar-header col-xs-12 navbar-row-2" ng-cloak>
+                    <ul class="nav navbar-nav col-sm-7 navbar-collapse collapse">
+                    <li class="nav navigation-links"><a href="#">Product Summary</a></li>
+                        <li class="nav navigation-links"><a href="index.html#/DisciplineSummary">Discpline Summary</a></li>
+                        <li class="nav navigation-links"><a href="index.html#/RoleSummary">Role Summary</a></li>                        
+                        <li class="nav navigation-links"><a href="#">Product Led</a></li>
+                        <li class="nav navigation-links"><a href="#">Service Led</a></li>
+                        
+                        
+                        
+                    </ul>
+
+                    
+                </div>
+                <!-- Issue briefs -->
+                <div id="paragraphDiv" class="col-xs-12 support-container" style="display:none" >Women Literacy Rate
+            <p style="font-size:15px; font-weight:400;">Literacy is one of the crucial components of the human development index. It is also
+linked with other key indicators of human development such as morbidity rate, empowerment of women, health status, infant mortality,
+and nutritional status of children. Below data provides the statistics...</p>
+            </div>
+            </div>
+        </header>
+        <article class="container" style="min-height: 700px;">
+        <!-- Views for SPA -->
+        	<div ng-view>
+        		
+        	</div>
+        </article>
+        <!-- Footer -->
+        <footer class="container footer-main">
+            <div class="bottom" id="usp_footer">
+                <div class="container">
+                    <div class="row footer-row">
+                         
+                        <div class="col-md-6" ng-cloak>2014 Sowmya A. All rights reserved</div>
+                        <div class="col-md-6 usp_footerimageDIV" id="usp_footerimage"></div>
+                    
+                    </div>
+                   
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- JS files references -->
+    <input type="hidden" id="__REQUESTDIGEST" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>  
+    <script type="text/javascript" src="js/metro/metro.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    
+    <!-- Application specific JS files references -->
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/route.js"></script>
+    <script type="text/javascript" src="app/WelcomePage.js"></script>
+    <script type="text/javascript" src="app/DisciplineSummary.js"></script>
+    <script type="text/javascript" src="app/RoleSummary.js"></script>
+</body>
+</html>

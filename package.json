@@ -1,0 +1,15 @@
+{
+  "name": "default-nodejs-app",
+  "version": "0.0.1",
+  "author": "Rajesh.pillai@emc.com",
+  "dependencies": {
+    "express": "3.4.8",
+    "consolidate": "0.10.0",
+    "express": "3.4.8",
+    "swig": "1.3.2",
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}

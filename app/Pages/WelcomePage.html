@@ -1,0 +1,89 @@
+﻿<!-- Welcome page with Carousel -->
+<style>
+    path {  stroke: #fff; }
+    path:hover {  opacity:0.9; }
+    rect:hover {  fill:#0072ff; }
+    .axis {  font: 10px sans-serif; }
+    .legend tr{    border-bottom:1px solid grey; }
+    .legend tr:first-child{    border-top:1px solid grey; }
+    
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    
+    .x.axis path {  display: none; }
+    .legend{
+        margin-bottom:76px;
+        display:inline-block;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+    .legend td{
+        padding:4px 5px;
+        vertical-align:bottom;
+    }
+    .legendFreq, .legendPerc{
+        align:right;
+        width:50px;
+    }
+    
+</style>
+<div class="row" id="productSummaryDIV">
+    <div class="col-md-12">
+        <div class="row">
+            <div id="paragraphDiv" class="col-md-12 support-container">
+        Product Summary
+                <button type="button" class="btn btn-default btn-sm pull-right" ng-click="download()">
+                    <span class="glyphicon glyphicon-download-alt"></span> Download
+                </button>
+
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 40px;">
+            <div id="ProductSummary_dashboard" class="col-md-12"></div>
+        </div>
+        <div class="row" id="quarterSummeryRow1" style="display: none">
+            <p class="usp_topproductstitle">Quarter Summary - <span class="usp_topproductstitle">{{division}}</span></p>
+            <div class="info-chart col-md-12" id="info-chart1">
+                <div class="charttooltip hidden">
+                    <p> Billable Hrs : <span class="value"></span></p>
+                </div>
+
+                <form>
+                    <label><input type="radio" name="mode" id="stacked" value="stacked" checked> Stacked</label>
+                    <label><input type="radio" name="mode" id="grouped" value="grouped"> Grouped</label>
+                </form>
+            </div>
+            <div class="col-md-12">
+
+                <div class="infoTable" id="infoTable1" ng-repeat="module in quarterlyData.modules| filter:division">
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <td ng-repeat="product in module.Products">
+                                <span style="margin: 20px;"><b>{{product.name}}</b></span>
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                    <th>Quarters</th>
+                                    <th>Billable Hrs</th>
+                 </thead>
+                                    <tbody>
+                                    <tr ng-repeat="data in product.quarters" class="{{product.name}}">
+                                        <td>{{data.name}}</td>
+                                        <td>{{data.size}}</td>
+                                    </tr></tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,541 @@
+﻿
+/* Product category styles starts here */
+.usp_bordertop {
+	border-top: 1px solid #E4E4E4;
+}
+.usp_borderboootm{
+	border-bottom: 1px solid #E4E4E4;
+}
+.usp_borderright{
+	border-right:1px solid #E4E4E4;
+}
+.usp_borderleft{
+	border-left:1px solid #E4E4E4;
+}
+
+
+.productcategory span {
+	text-align: center;
+	text-transform: none;
+	text-indent: 0px;
+	display: inline !important;
+	font: 14px 'Verdana Regular', Verdana;
+	white-space: normal;
+	float: none;
+	letter-spacing: normal;
+	color: rgb(102,102,102) !important;
+	word-spacing: 0px;
+	-webkit-text-stroke-width: 0px;
+}
+.productcategory img {
+padding-top:20px;
+	
+}
+.productcategory a {
+	text-decoration: none;
+	color: #0079BF !important;
+
+}
+/*Product category styles ends here*/
+
+ /* USP HOME PAGELAYOUT STYLES STARTS HERE */
+.USPtableCol-75
+{
+display:table-cell;
+width : 795px;
+min-width:795px;
+}
+.USPtableCol-25
+{
+display:table-cell;
+vertical-align:top;
+}
+.USPcell-margin
+{
+margin:5px 0px 5px 0px;
+}
+
+/* USP HOME PAGELAYOUT STYLES ENDS HERE */
+
+/*USP SUPPORT STYLES STARTS HERE*/
+.support-container{
+
+    font-family: 'Verdana Bold', 'Verdana' !important;
+    font-weight: 700 !important;
+    font-style: normal;
+    font-size: 16px !important;
+    color: #0079BF !important;;
+    padding:5px;
+    background-image: linear-gradient(to top, #ffffff 0%, #dfdfdf 100%);
+    border-bottom-style: none;
+    border-bottom-color: inherit;
+    border-bottom-width: 0px;
+}
+
+ .support-table-row{  
+     display:table-row;
+     text-align: left;
+     min-height:45px;
+ 
+	vertical-align:middle;
+	height:50px;
+
+	
+        
+ }
+ .support-col{ 
+    display:table-cell;
+
+     font-family: 'Verdana Regular', 'Verdana';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #2C95DD !important;
+	vertical-align:middle;
+	padding-left:10px;
+		
+	vertical-align:top
+
+ }
+ .support-Imgcol{
+	display:table-cell;
+	position:relative;	
+	width: 27px;
+	height: 26px;
+	padding-left:20px;
+
+}
+  .support-col a {
+	text-decoration:none;
+	color: #2C95DD !important;
+
+}
+
+   .Support-space{
+	min-height:20px;
+	height:20px;
+}
+
+/*USP SUPPORT ENDS HERE*/
+
+
+
+
+/* Top Products Display Templates STARTS HERE */
+.cbs-pictureOnTopContainer{
+	max-width: 140px !important;
+	max-height: 100px !important;
+}
+.topproductsrow{
+	padding-top:20px;
+}
+.TopProductsContainer{
+font-family: 'Verdana Regular', 'Verdana';
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+color: #000000;
+text-align: center;
+display: inline-block;
+padding-right: 0px;
+padding-bottom: 24px;
+padding-left:15px;
+margin: 0 auto;
+}
+.TopProductsContainer a{
+font-family: 'Verdana Regular', 'Verdana';
+font-weight: 400;
+font-style: normal;
+font-size: 13px;
+color: #000000;
+text-align: center;
+}
+
+.usp_topproductstitle{
+	
+	font-family: 'Verdana Bold', 'Verdana' !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	font-style: normal !important;
+	color: #333333 !important;
+	text-align: left !important;
+	line-height: normal !important;
+
+}
+.TopProductsDataContainer{
+	padding-top:2px;
+}
+.ratingcontainer{
+	    display: table;
+    margin: 0 auto;
+}
+.usp_reviewrows{
+	margin-top:15px;
+}
+/* Top Products Display Templates ENDS HERE */
+
+/* PRODUCT CATALOG STYLES STARTS HERE*/
+.usp_catalogmaintable{
+	display:table;
+	padding:0px 0px 0px 20px;
+
+}
+.usp_catalogtablerow{
+	display:table-row;
+}
+.usp_catalogtablecell{
+	display:table-cell;
+	padding: 20px 0px 0px 0px;
+	vertical-align:top;
+}
+#usp_productrefiner{
+	font-family: 'Verdana Bold', 'Verdana';
+	font-weight: 400;
+	font-style: normal;
+	font-size:14px;	
+	vertical-align:top;
+	height:409px;
+	background-repeat: repeat;
+    padding-top: 20px;
+    background-image: linear-gradient(to top, #ffffff 0%, #dfdfdf 100%);
+}
+#usp_productdisplay{
+	display:inline-block;
+	width:250px;
+	padding:30px 0px 10px 20px;
+	text-align: center;
+	text-transform: none;
+	text-indent: 0px;	
+	white-space: normal;	
+	letter-spacing: normal;
+	color: rgb(102,102,102) !important;
+	word-spacing: 0px;
+}
+#usp_productdisplay a {
+	text-decoration: none;
+	color: #0079BF !important;
+
+}
+#usp_cataloglable{	
+font-weight: 700;
+font-size:18px;
+padding:0px 0px 10px 20px;
+position:absolute;
+}
+.usp_catalogrefinerslabel{
+font-weight: 700;
+}
+#usp_productCatalogMainTable{
+	margin-left:0px;
+font-family: 'Verdana Bold', 'Verdana' !important;
+font-weight: 400 !important;
+font-style: normal !important;
+font-size:14px !important;
+padding:0;
+}
+#usp_productrefinerlabel{
+	font-family: 'Verdana Bold', 'Verdana' !important;
+font-weight: 400 !important;
+font-style: normal !important;
+font-size:14px !important;
+
+}
+#usp_productcatalog{
+	padding-top:20px;
+}
+/* PRODUCT CATALOG STYLES ENDS HERE*/
+
+/* PRODUCT / ITEM PAGE STYLES STARTS HERE*/
+#usp_productTitle{
+font-family: 'Verdana Bold', 'Verdana';
+font-weight: 700;
+font-style: normal;
+font-size: 21px;
+color: #333333;
+text-align: left;
+line-height: normal;	
+}
+.usp_itemratings{
+	float:right;
+}
+.usp_previewImages{
+	width:43px;
+	height:37px;
+border:1px blue solid;
+padding:4px;
+margin:4px
+}
+.usp_imagemainview{
+width:260px;
+	
+}
+.usp_tableimagecontainer{
+	 /* width:100%;*/
+	margin-right:20px;
+}
+#usp_ratinginNo{
+	vertical-align:top;
+	font-family: 'Arial Bold', 'Arial';
+	font-weight: 700;
+	font-style: normal;
+}
+#usp_prodcutdetailstable{
+	 /* width:70%; /* TEMPORARY NEEDS TO BE REMOVED WHEN MASTERPAGE IS IN PLACE*/
+
+}
+#usp_producttabs{
+	 /* width:70%; /* TEMPORARY NEEDS TO BE REMOVED WHEN MASTERPAGE IS IN PLACE*/	
+	padding-top: 20px;
+}
+#usp_tabsHeading span, #usp_tabsHeading a {
+	color: #999999 !important;
+	line-height: 20px;
+	font-family: 'Verdana Regular', 'Verdana';
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	text-align:center;
+	white-space:nowrap;
+	text-decoration:none;
+}
+
+#usp_tabsHeading td:hover, #usp_tabsHeading a:hover{
+	color: #333333 !important;
+	background-color:#DFDFDF;
+	text-decoration:none;
+	}
+#usp_tabsHeading .active{	
+	background-color:#DFDFDF;
+}
+#usp_tabsHeading span{
+padding:0px 20px 0px 20px;
+}
+#usp_tabshorizontalline{
+	  /* width:70%;TEMPORARY NEEDS TO BE REMOVED WHEN MASTERPAGE IS IN PLACE*/	
+	padding-left:40px;
+}
+#usp_tabsdetailshorizontalline{
+	width:100%;		
+}
+#usp_productModelMainTable{
+	border:0;
+}
+#usp_tabsdetailstable, .usp_review{
+	font-family: 'Verdana Regular', 'Verdana';
+	font-size:14px;
+	font-style: normal;
+	font-weight: 400;
+	color: #333333;
+	text-align: left;
+	line-height: normal;	
+}
+.usp_productmodeldisplay{
+	display:inline-block;	
+}
+.usp_modelblock{
+height:150px;
+font-weight:700;
+}
+.usp_modelOrderButtons{
+	height:40px;
+	vertical-align:bottom;
+}
+#usp_productsmodelfieldstable{
+	font-weight:700;
+	margin-right:40px;
+}
+#usp_products{
+	padding-left:0px;
+	padding-top:20px;
+}
+#usp_productsmodelvaluetable{
+	margin-right:60px;
+}
+/* PRODUCT / ITEM PAGE STYLES ENDS HERE*/
+
+/* MY SHOPPING CART PAGE STYLES STARTS HERE*/
+.usp_nostyleButton{
+	border:0;
+}
+.usp_setwidth{
+	 width:70%; /* TEMPORARY NEEDS TO BE REMOVED WHEN MASTERPAGE IS IN PLACE*/
+}
+.usp_forms{
+	font-family: 'Verdana Bold', 'Verdana';
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #333333;
+	text-align: left;
+	line-height: normal;
+}
+.usp_formtitle{
+	font-family: 'Verdana Bold', 'Verdana';
+	font-weight: 700;
+	font-style: normal;
+	font-size:21px;
+}
+.usp_formsubtitle{
+	font-family: 'Verdana Bold', 'Verdana';
+	font-size: 14px;
+	font-weight: 700;
+	font-style: normal;
+	color: #333333;
+	text-align: left;
+	line-height: normal;
+}
+.usp_productstable{
+border-spacing: 0px;
+}
+.usp_productstableheadr{
+	font-weight: 700;
+color: #FFFFFF;
+text-align: left;
+font-style: normal;
+background-color: #009DD9;
+}
+.usp_productstableQty{
+	text-align: center;
+}
+#usp_cartLinks{
+	float:right;
+	padding-bottom:40px;
+	white-space:nowrap;
+}
+#usp_savedforlatercontainer{
+display:inline-block;
+}
+#usp_shoppingcarttextarea{
+	padding-top:20px;
+}
+#usp_cartline{
+	margin-bottom:0px;
+}
+#usp_termsSection{
+	padding-top:20px;
+}
+/* MY SHOPPING CART PAGE STYLES ENDS HERE*/
+
+/* MY PROFILE PAGE STYLES STARTS HERE*/
+#usp_myprofiletable{
+margin-top:15px;
+margin-bottom:50px;
+}
+
+#usp_myprofiletable div.row{	
+	margin-top:10px;
+	margin-right:0px;
+}
+.usp_tblheading{
+	font-weight:700;
+}
+.usp_profileactionrow{
+	margin-top:30px !important;
+	margin-bottom:30px !important;
+
+}
+.usp_datepicker{
+	line-height:20px !important;
+}
+/* MY PROFILE PAGE STYLES ENDS HERE*/
+
+.usp_searchproductdisplay{
+	display:inline-block;
+	width:250px;
+	padding:30px 0px 10px 20px;
+	text-align: center;
+	text-transform: none;
+	text-indent: 0px;	
+	white-space: normal;	
+	letter-spacing: normal;
+	color: rgb(102,102,102) !important;
+	word-spacing: 0px;
+}
+.usp_writeproductreview{
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.usp_writeproductreview a, .usp_searchproductdisplay a {
+text-decoration: none;
+color: #0079BF !important;
+}
+.ms-srchnav-list li h2{
+		
+	font-family: 'Verdana Regular', 'Verdana';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #3399CC;
+}
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+text {
+  font-size: 11px;
+}
+
+/*Quarter summery chart*/
+ .info-chart {
+      position: relative;
+    }
+    
+    .info-chart rect:hover {
+        fill: #33ADBC;
+    }
+    
+    .info-chart .charttooltip {
+        position: absolute;
+        width: 120px;
+        height: auto;
+        padding: 10px;
+        background-color: #000;
+        pointer-events: none;
+    }
+    
+    
+    .info-chart .charttooltip-left:before {
+        content: "";
+        position:absolute;
+        bottom: 11px;
+        right: -8px;
+        border-left: 8px solid #000;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 0;
+    }
+    
+    .info-chart .charttooltip-right:before {
+        content: "";
+        position:absolute;
+        bottom: 11px;
+        left: -8px;
+        border-right: 8px solid #000;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 0;
+    }
+    
+    
+    .info-chart .charttooltip.hidden {
+        display: none;
+    }
+    
+    .info-chart .charttooltip p {
+        margin: 0;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .infoTable{margin-top: 10px; font-size: 14px; margin-top: 20px; }        
+    .infoTable TH {border-width: 1px;padding: 3px;border-style: solid;background-color: #6495ED;} 
+        
+
+.portalHeader{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+}
